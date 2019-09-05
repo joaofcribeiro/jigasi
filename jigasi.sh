@@ -1,5 +1,5 @@
 #!/bin/bash
-
+// Edited by joaofcribeiro
 kernel="$(uname -s)"
 if [ $kernel == "Darwin" ] ; then
     SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
